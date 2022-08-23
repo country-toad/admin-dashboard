@@ -4,6 +4,19 @@
   grid-template-rows: 1fr 6fr;
 }
 
+.sidebar { 
+  grid-column-start: 1;
+}
+
+.header {
+  grid-column-start: 2;
+}
+
+.main-content {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
