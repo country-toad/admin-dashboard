@@ -1,11 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   display: grid;
+  height: 100vh;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 6fr;
 }
 
 .sidebar { 
   grid-column-start: 1;
+  grid-row: 1/3;
+  background: lightblue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  gap: 40px;
 }
 
 .header {
