@@ -38,3 +38,15 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.sidebar {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+ul.links {
+  font-size: 20px;
+}
