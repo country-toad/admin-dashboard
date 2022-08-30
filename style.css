@@ -57,3 +57,11 @@ ul.links {
   margin: 0 20px;
   font-weight: bold;
 }
+
+.header {
+  background: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
