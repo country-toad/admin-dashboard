@@ -65,3 +65,11 @@ ul.links {
   align-items: center;
   justify-items: center;
 }
+
+.header #search {
+  border-radius: 50px;
+  background: white;
+  border: none;
+  height: 20px;
+  width: 100%;
+}
