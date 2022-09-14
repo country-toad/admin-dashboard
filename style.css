@@ -66,15 +66,16 @@ ul.links {
 }
 
 .searchbar {
-  display: grid;
+  display: flex;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .header #search {
   border-radius: 50px;
   background: white;
   border: none;
-  height: 20px;
-  width: 80%;
-  justify-self: end;
+  height: 25px;
+  width: 90%;
+  justify-self: center;
 }
