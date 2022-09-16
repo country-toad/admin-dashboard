@@ -63,12 +63,13 @@ ul.links {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  padding: 0 50px;
 }
 
 .searchbar {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  gap: 15px;
 }
 
 .header #search {
@@ -76,6 +77,16 @@ ul.links {
   background: white;
   border: none;
   height: 25px;
-  width: 90%;
+  width: 100%;
+  min-width: 200px;
   justify-self: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: end;
+}
+
+.pfp {
+  border-radius: 50%;
 }
