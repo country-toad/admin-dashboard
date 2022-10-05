@@ -106,3 +106,17 @@ ul.links {
   font-weight: bolder;
   font-size: 20px;
 }
+
+.function-buttons {
+  display: grid;
+  gap: 10px;
+  grid-auto-flow: column;
+}
+.function-buttons button{
+  background: blueviolet;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  width: 80px;
+  height: 30px
+}
