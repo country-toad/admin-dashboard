@@ -113,10 +113,16 @@ ul.links {
   grid-auto-flow: column;
 }
 .function-buttons button{
-  background: blueviolet;
+  background: rgb(138, 43, 226);
   color: white;
   border-radius: 20px;
   border: none;
   width: 80px;
   height: 30px
+}
+.function-buttons button:hover {
+  background: rgb(178, 96, 255);
+}
+.function-buttons button:active {
+  background: rgb(106, 6, 199);
 }
