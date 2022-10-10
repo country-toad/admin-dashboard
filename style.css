@@ -21,6 +21,7 @@
 
 .header {
   grid-column-start: 2;
+  box-shadow: 5px 1px 4px rgb(141, 141, 141);
 }
 
 .main-content {
