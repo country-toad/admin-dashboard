@@ -127,3 +127,13 @@ ul.links {
 .function-buttons button:active {
   background: rgb(106, 6, 199);
 }
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.main-content .projects {
+  grid-row: 1 / 3;
+}
