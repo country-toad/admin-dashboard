@@ -130,10 +130,15 @@ ul.links {
 
 .main-content {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template: auto / 3fr 1fr;
 }
 
 .main-content .projects {
   grid-row: 1 / 3;
+  display: grid;
+  grid-template: 30px / repeat(2, 1fr);
+}
+
+.main-content .project-title {
+  grid-column: 1 / 3;
 }
