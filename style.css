@@ -157,6 +157,8 @@ ul.links {
   height: 150px;
   display: flex;
   flex-flow: column;
+  border-left: 8px solid rgb(255, 181, 101);
+  box-shadow: 2px 4px 3px rgba(83, 83, 83, 0.3);
 }
 
 .project-card p {
