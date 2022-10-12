@@ -79,8 +79,8 @@ ul.links {
   border-radius: 50px;
   background: white;
   border: none;
-  height: 25px;
-  width: clamp(300px, 100%, 500px);
+  height: 30px;
+  width: clamp(300px, 100%, 800px);
   justify-self: center;
 }
 
@@ -155,4 +155,16 @@ ul.links {
   padding: 30px;
   min-width: 200px;
   height: 200px;
+  display: flex;
+  flex-flow: column;
+}
+
+.project-card p {
+  flex: 1;
+}
+
+.card-footer {
+  align-self: end;
+  display: flex;
+  gap: 15px;
 }
