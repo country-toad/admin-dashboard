@@ -137,10 +137,10 @@ ul.links {
 }
 
 .main-content .projects {
-
   grid-row: 1 / 3;
   display: grid;
   grid-template: 30px / repeat(2, 1fr);
+  grid-auto-rows: min-content;
   gap: 20px;
   margin: 20px;
 }
@@ -154,7 +154,7 @@ ul.links {
   border-radius: 10px;
   padding: 30px;
   min-width: 200px;
-  height: 200px;
+  height: 150px;
   display: flex;
   flex-flow: column;
 }
