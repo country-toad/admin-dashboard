@@ -168,19 +168,19 @@ ul.links {
 .card-footer {
   align-self: end;
   display: flex;
-  gap: 15px;
 }
 
 .ann-container {
   display: grid;
+  gap: 20px;
 }
 
-.ann-title {
-  padding-bottom: 20px; 
-}
-
-.ann-card {
+.ann-card-container {
   background: white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px rgba(83, 83, 83, 0.3);
+  padding: 30px;
+  margin: 0 20px 0 0;
 }
 
 .ann-card p {
