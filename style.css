@@ -172,6 +172,7 @@ ul.links {
 
 .ann-container {
   display: grid;
+  grid-template-rows: min-content 1fr;
   gap: 20px;
 }
 
@@ -185,4 +186,8 @@ ul.links {
 
 .ann-card p {
   color: gray;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
