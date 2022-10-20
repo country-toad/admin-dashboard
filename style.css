@@ -172,7 +172,7 @@ ul.links {
 
 .ann-container {
   display: grid;
-  grid-template-rows: min-content 1fr;
+  grid-template-rows: min-content min-content;
   gap: 20px;
 }
 
@@ -182,6 +182,9 @@ ul.links {
   box-shadow: 2px 4px 3px rgba(83, 83, 83, 0.3);
   padding: 30px;
   margin: 0 20px 0 0;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr min-content 1fr;
+  gap: 20px;
 }
 
 .ann-card p {
