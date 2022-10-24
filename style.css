@@ -198,3 +198,13 @@ ul.links {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.trend-card{
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content;
+}
+
+.trend-card img {
+  grid-row: 1 / 3;
+}
