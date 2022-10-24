@@ -176,15 +176,19 @@ ul.links {
   gap: 20px;
 }
 
-.ann-card-container {
+.ann-card-container,
+.trend-card-container {
   background: white;
   border-radius: 10px;
   box-shadow: 2px 4px 3px rgba(83, 83, 83, 0.3);
   padding: 30px;
   margin: 0 20px 0 0;
   display: grid;
-  grid-template-rows: 1fr min-content 1fr min-content 1fr;
   gap: 20px;
+}
+
+.ann-card-container {
+  grid-template-rows: 1fr min-content 1fr min-content 1fr;
 }
 
 .ann-card p {
