@@ -167,6 +167,7 @@ ul.links {
 
 .project-card p {
   flex: 1;
+  color: gray;
 }
 
 .card-footer {
