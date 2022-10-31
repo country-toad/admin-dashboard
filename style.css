@@ -198,6 +198,7 @@ ul.links {
 
 .ann-card p {
   color: gray;
+  font-size: small;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
