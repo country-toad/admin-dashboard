@@ -171,8 +171,10 @@ ul.links {
 }
 
 .card-footer {
+  width: 100px;
   align-self: end;
   display: flex;
+  justify-content: space-between;
 }
 
 .ann-container {
